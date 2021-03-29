@@ -1,6 +1,6 @@
 ---
 - name : Actualizar los paquetes del sistema de forma segura
-  hosts : servidor
+  hosts : all
   tasks :
    - name : Actualizar paquetes
      apt :
