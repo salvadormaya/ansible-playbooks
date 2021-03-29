@@ -1,0 +1,9 @@
+---
+- name: Instalar lftp usando apt
+  hosts: all
+  tasks:
+-    name : Instalar la última versión de lftp
+     apt :
+      name: lftp
+      state: latest
+      update_cache: True
